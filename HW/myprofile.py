@@ -177,5 +177,5 @@ my_upload = st.sidebar.file_uploader(
 if my_upload is not None:
     process_image(upload=my_upload)
 else:
-    image_path = Path(__file__).resolve().parent / "HW/133934330580812634.jpg"
+    image_path = Path(__file__).resolve().parent / "133934330580812634.jpg"
     process_image(str(image_path))
